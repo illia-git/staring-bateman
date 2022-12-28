@@ -18,7 +18,8 @@
   "plugins": [
     "react",
     "@typescript-eslint",
-    "react-hooks"
+    "react-hooks",
+    "import"
   ],
   "rules": {
     "no-use-before-define": "off",

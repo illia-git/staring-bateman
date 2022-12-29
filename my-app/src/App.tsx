@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import BackgroundImage from './components/BackgroundImage';
-import BackgroundSound from './components/BackgoundSound';
+import BackgroundSound from './components/BackgroundSound';
 import Quotes from './components/Quotes';
 
 import quotes from './helpers/lib/quotes';

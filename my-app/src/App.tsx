@@ -12,7 +12,7 @@ function App() : JSX.Element {
 		<div className="App">
 			<BackgroundImage type="eng"/>
 			<BackgroundSound type="arab"/>
-			{/*<Quotes quotes={quotes}/>*/ }
+			<Quotes quotes={ quotes }/>
 		</div>
 	);
 }

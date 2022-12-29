@@ -10,9 +10,10 @@ interface IQuote {
 
 interface IProps {
 	quotes : IQuote[];
+	type : 'eng' | 'arab';
 }
 
-const Quotes : React.FC<IProps> = ({ quotes }) : JSX.Element | null => {
+const Quotes : React.FC<IProps> = ({ quotes, type }) : JSX.Element | null => {
 	const [currentQuote, setCurrentQuote] = useState<IQuote | null>(null);
 
 	useEffect(() => {
@@ -35,7 +36,7 @@ const Quotes : React.FC<IProps> = ({ quotes }) : JSX.Element | null => {
 				<Grid container justify="center" alignItems="center" className="my-container">
 					<Grid item xs={ 12 } sm={ 8 } md={ 6 } lg={ 4 } xl={ 2 }>
 						<Typography variant="h5" component="p" className="quote">
-							«‎{ currentQuote.quote_eng }»‎
+							«‎{ type === 'eng' ? currentQuote.quote_eng : currentQuote.quote_arab }»‎
 						</Typography>
 					</Grid>
 				</Grid>

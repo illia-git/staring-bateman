@@ -6,7 +6,7 @@
 
 - Created with CRA but not Vite 
 - GIFs weight almost 55 Mb each
-- Modal window for the audio permission does not working properly, so enable the audio manually
+- Modal window for the audio permission does not work properly, so enable the audio manually
 
 
 

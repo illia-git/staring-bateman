@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 
-import Loader from './components/Loader'
+import AudioPermissionModal from './components/AudioPermissionModal';
+import Loader from './components/Loader';
 import BackgroundImage from './components/BackgroundImage';
 import BackgroundSound from './components/BackgroundSound';
 import ToggleButton from './components/ToggleButton';
@@ -15,6 +16,7 @@ function App() : JSX.Element {
 	return (
 		<div className="App">
 			<Loader/>
+			<AudioPermissionModal/>
 			<ToggleButton state={ type } setState={ setType }/>
 			<BackgroundImage type={ type }/>
 			<BackgroundSound type={ type }/>

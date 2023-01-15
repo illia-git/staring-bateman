@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.391f487e.css",
+    "main.js": "/static/js/main.7dd72c14.js",
+    "static/media/bateman_arab.gif": "/static/media/bateman_arab.59c27826d480ffbbae0f.gif",
+    "static/media/bateman_eng.gif": "/static/media/bateman_eng.bafb0d7e0d34af69d388.gif",
+    "static/media/sound_eng.mp3": "/static/media/sound_eng.984d0da55b8180f2c639.mp3",
+    "static/media/sound_arab.mp3": "/static/media/sound_arab.796aa41efdfa8fedf5a4.mp3",
+    "index.html": "/index.html",
+    "main.391f487e.css.map": "/static/css/main.391f487e.css.map",
+    "main.7dd72c14.js.map": "/static/js/main.7dd72c14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.391f487e.css",
+    "static/js/main.7dd72c14.js"
+  ]
+}

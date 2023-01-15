@@ -11,6 +11,7 @@ const BackgroundImage : React.FunctionComponent<IBackgroundImageProps> = ({ type
 	return (
 		<div
 			style={ {
+				backgroundPosition : 'center',
 				backgroundImage : `url(${ GIF })`,
 				backgroundSize : 'cover',
 				height : '100vh',
